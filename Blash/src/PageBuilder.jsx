@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { DndContext } from '@dnd-kit/core';
 import Draggable from './Components/Draggable';
 import Droppable from './Components/Droppable';
-import { db } from './firebase';
+import { db } from './Firebase';
 import { doc, setDoc, getDoc } from "firebase/firestore";
 
 function PageBuilder() {
